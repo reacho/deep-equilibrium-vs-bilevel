@@ -1,0 +1,33 @@
+{
+    "uniqueID": 29,
+    "dataset": "CELEBA",
+    "eps_sq": 0.01,
+    "epsilon": 0.1,
+    "blur_kernel_size": 5,
+    "out_channels": 2,
+    "kernel_size": 11,
+    "stride": 1,
+    "padding": 1,
+    "gamma": 1.0,
+    "lambd": 10.0,
+    "inpainting_denoising_deblurring": [
+        false,
+        false,
+        true
+    ],
+    "tau": 0.00125,
+    "max_epochs": 500,
+    "tol": 1e-14,
+    "max_iter": 1000,
+    "step_method": "forward_iteration",
+    "sigma": "tanh",
+    "DEQ_model": true,
+    "percentage": 0.25,
+    "BOOLEAN_UPDATE_NORMS": false,
+    "TV_like_init": true,
+    "SECOND_ORDER": false,
+    "opt_lr": 9e-3,
+    "LOAD_CHECKPOINT": true,
+    "checkpoint_ID": "013",
+    "CHANGED_TASK": true
+}
